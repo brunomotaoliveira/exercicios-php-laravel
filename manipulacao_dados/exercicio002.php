@@ -1,61 +1,24 @@
-<!-- $list_user = [
-            [
-                "id" => 1,
-                "name" => "Gabriel",
-            ],
-            [
-                "id" => 2,
-                "name" => "Bruno",
+<!-- $user = [
+            "name" => "João",
+            "Idade" => 88,
+            "Documentos" => [
+                [
+                    "name" => "RG",
+                    "numero" => "000000000",
+                ],
+                [
+                    "name" => "CPF",
+                    "numero" => "11111111111",
+                ]
             ]
         ];
+        // a) retornar o nome dos documentos que o user tem
+        // EX: [ "cpf", "rg"]
 
-        $pedidos = [
-            [
-                "id_user" => 1, 
-                "name"  => "Pão de queijo",
-                "valor" =>  100
-            ],
-            [
-                "id_user" => 1, 
-                "name"  => "cafe com leite",
-                "valor" =>  200
-            ],
-            [
-                "id_user" => 2, 
-                "name"  => "Pão de queijo",
-                "valor" =>  100
-            ],
-            [
-                "id_user" => 2, 
-                "name"  => "Pão doce",
-                "valor" =>  100
-            ],
-            [
-                "id_user" => 2, 
-                "name"  => "Suco",
-                "valor" =>  100
-            ],
-        ];
+        // b) retornar o numero dos documentos que o user tem
+        // EX: [ 0000000, 11111111]
 
-        // a) pege todos os pedidos do Cliente "Gabriel"
-        // EX:
-        //  [
-        //    [
-        //        "id_user" => 1, 
-        //        "name"  => "Pão de queijo",
-        //        "valor" =>  100
-        //    ],
-        //    [
-        //        "id_user" => 1, 
-        //        "name"  => "cafe com leite",
-        //        "valor" =>  200
-        //    ]
-        //  ]
-
-        // B) pegar todos os pedidos do "Bruno
-
-        // C) mostre o total de cada cliente
-        // ["Gabriel" => 300, "Bruno" => 300] -->
+        // c) dividir a idade pela metar e salvar no mesmo array -->
 
         <?php 
 
